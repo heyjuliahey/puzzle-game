@@ -1,0 +1,107 @@
+body {
+    background: url('../images/bg.gif');
+}
+
+.page {
+    max-width: 400px;
+    padding: 2rem;
+    margin: 0 auto;
+    user-select: none;
+}
+
+.field {
+    width: 100%;
+    padding-bottom: 100%;
+    background: rgba(235, 255, 255, 0.4);
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color:  #FFDEA6;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px  #FFCF9E;
+    transition: transform 0.35s;
+}
+
+.shuffle {
+    border: none;
+    background-color: #FFDEA6;
+    color: white;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px #FFCF9E;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+.moves {
+    color: white;
+    background-color: #FFDEA6;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px #FFCF9E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.timer-container{
+    color: white;
+    background-color: #FFDEA6;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px #FFCF9E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.soundButton {
+    background-color: #FFDEA6;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px #FFCF9E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.sizes-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.puzzle-size {
+    color: white;
+    background-color: #FFDEA6;
+    padding: 0.5em 1.5em;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px #FFCF9E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
